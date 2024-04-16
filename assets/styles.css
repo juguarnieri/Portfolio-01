@@ -1,3 +1,27 @@
-h1 {
-    color: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Bell MT", sans-serif;
+}
+
+:root {
+    --bg-color: #080808;
+    --secondary-bg-color: #121212;
+    --text-color: #e4e4e4;
+    --main-color: #14ac58;
+
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
